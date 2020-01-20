@@ -1,0 +1,45 @@
+body{
+background-color: #C0C0C0;
+background-position: center center;
+background: auto;
+}
+.111 {
+font-family: arial;
+font-size: medium;
+font-style: normal;
+font-weight: 400;
+letter-spacing: normal;
+text-align: left;
+}
+
+.table-center {
+    text-align: center;
+}
+
+.table-view {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    float: left;
+}
+.Lista {
+border-color: #008080;
+border-style: double;
+border-width: medium;
+float: right;
+list-style-type: disc;
+text-align: center;
+text-decoration: underline;
+}
+
+.wypunkt{
+list-style-type: circle;
+}
+.button-fixed-width {
+    width: 100%;
+}
+
+.myImg{
+float: center;
+}
