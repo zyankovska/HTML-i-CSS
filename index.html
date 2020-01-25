@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<script src=111.js></script>
+<head>
+	<link rel="stylesheet" href="styl.css">
+	<meta charset="utf-8">
+	<title>Strona domowa</title>
+</head>
+
+<body>
+	<div class="111">
+		<p id="ImNaz"></p>
+		<button onclick = "button()"> Kliknij </button>
+		<a href="https://github.com/zyankovska/HTML-i-CSS.git">Link do Git</a>
+		<p></p>
+ 	<div class="Lista">
+		 <p> --- Lista --- </p>
+		 <p id="Lista"></p>
+		 <button onclick = "Lista()"> Dodaj </button> 
+		 <p></p>
+	<div class="table-center">
+	   <table class="table-view">
+		   <tr>
+			   <td>
+				   <button type="button" id="a" onclick="Ocena()" onmouseover="A()">1</button>
+			   </td>
+			   <td>&nbsp;&nbsp;</td>
+			   <td>
+				   <button type="button" id="b" onclick="Ocena()" onmouseover="B()">2</button>
+			   </td>
+			   <td>&nbsp;&nbsp;</td>
+			   <td>
+				   <button type="button" id="c" onclick="Ocena()" onmouseover="C()">3</button>
+			   </td>
+			   <td>&nbsp;&nbsp;</td>
+			   <td>
+				   <button type="button" id="d" onclick="Ocena()" onmouseover="D()">4</button>
+			   </td>
+			   <td>&nbsp;&nbsp;</td>
+			   <td>
+				   <button type="button" id="e" onclick="Ocena()" onmouseover="E()">5</button>
+			   </td>
+			   </tr>
+		</table>
+	</div>
+				</br>
+			<div class="table-center">
+				<table class="table-view">
+					<tr>
+						<b id="Ocena"></b><br/>
+					</tr>
+				</table>
+			</div>
+			</br>
+	 </div>
+
+	 <div class="myImg" id="off">
+		<img src="kniga_kot_kofe.jpg" onmouseover="Off()"
+			width="300px" height="200px"> 
+	 </div>
+	 <div class="myImg" id="on" style="display:none">
+		<img src="cheshirrr.jpg" onmouseout="On()"
+			width="300px" height="200px"> 
+	 </div>
+	<p> 
+	</p>
+		<p>Jestem Zlata. Mam 19 lat. Lubie kotow, kawe i ksiazki.</p>
+		<div>
+			<ul class="wypunkt">
+				<p> Zainteresowania: </p>
+			    <li>Szachy - gram, ale czy dobrze, zalezy od tego z kim gram;</li>
+			    <li>Tance - jesli tak mozna nazwac te dziwne ruchy, ktore wykonuje podczas sprzatania;</li>
+			    <li>Spiew - i jest absolutnie nie wazne, dobrze to robie czy nie, spiewam i nikt mnie nie powstrzyma! XD</li>
+		</ul>
+	</div></br>
+
+		<div>
+			<h4 id="Disco" class="napis">DISCO</h4>
+			<div class="table-center">
+				<table class="table-view">
+					<tr>
+						<td colspan="7">
+							<h5>Kolor napisu</h5>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="button" onclick="Czerwony()" class="button-fixed-width">Czerwony</button>
+						</td>
+						<td>&nbsp;&nbsp;</td>
+						<td>
+							<button type="button" onclick="Zielony()" class="button-fixed-width">Zielony</button>
+						</td>
+						<td>&nbsp;&nbsp;</td>
+						<td>
+							<button type="button" onclick="Niebieski()" class="button-fixed-width">Niebieski</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="button" onclick="Fuksja()" class="button-fixed-width">Fuksja</button>
+						</td>
+						<td>&nbsp;&nbsp;</td>
+						<td>
+							<button type="button" onclick="Cyjan()" class="button-fixed-width">Cyjan</button>
+						</td>
+						<td>&nbsp;&nbsp;</td>
+						<td>
+							<button type="button" onclick="Czarny()" class="button-fixed-width">Czarny</button>
+						</td>
+					</tr>
+				</table>
+			</div>			
+			<p>
+			</p>
+		</div>	
+	</div>
+	<div>
+		<form action="wynik.php" method="get">
+			<input type="text" name="l1" value="">
+			<input type="text" name="l2" value="">
+			<input type="submit" value="Wyslij">
+		</form> 
+	</div>
+</body>
+</html>
